@@ -1,16 +1,137 @@
-body {
-	text-align : center;
-	font-family : Tahoma;
-	font-size : 14px;
-	background-color : black;
-	/* toe te voegen */
+body{
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 14px;
+    background-color: black;
 }
-.all {
-	text-align : left;
-	width : 700px;
-	margin : 100px auto;
-	min-height : 600px;
-	background-image : url(bg.jpg);
-	border : 4px solid red;
+.all{
+    text-align: left;
+    width: 700px;
+    margin: 100px auto;
+    min-height: 600px;
+    background-image: url(afbeelding/bg.jpg);
+    border: 4px solid red;
 }
-
+.tekst{
+    background-color: rgba(255, 255, 255, 0.6);
+    color:black;
+    padding:0.5px;
+}
+a{
+    font-weight: bold;
+    color: gray;
+    text-decoration: none;
+}
+ul a{
+    background-color: white;
+    color: gray;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+h1{
+    color: black;
+}
+p{
+    color: black;
+    text-decoration: none;
+}
+#bovenbalk{
+    padding: 0px;
+    margin: 0px;
+    background-image: url("afbeelding/bar1.png");
+    color: gray;
+}
+#bovenbalk:hover{
+    padding: 0px;
+    margin: 0px;
+    background-image: url("afbeelding/bar2.png");
+    color:black;
+}
+#title{
+    position: relative;
+    top: -169px;
+    left: 20px;
+}
+#humanfactor{
+    color: blue;
+}
+#humanfactor:hover #human{
+    display: block;
+}
+#human{
+    left: 918px;
+    color: black;
+    background-color: white;
+    width: 200px;
+    height: 60px;
+    border-radius: 8px;
+    display: none;
+    position: absolute;
+    border: 2px solid blue;
+}
+#saw{
+    position: relative;
+    top: 40px;
+    left: -350px;
+}
+#saw:hover{
+    position: relative;
+    top: 50px;
+    left: -360px;
+}
+#hammer{
+    position: relative;
+    top: -70px;
+    left: -10px;
+}
+#hammer:hover{
+    position: relative;
+    top: -80px;
+    left: -5px;
+}
+#pincers{
+    position: relative;
+    top: -10px;
+    left: 570px;
+}
+#pincers:hover{
+    position: relative;
+    top: -20px;
+    left: 560px;
+}
+#screwdriver{
+    position: relative;
+    top: -190px;
+    left: 350px;
+}
+#screwdriver:hover{
+    position: relative;
+    top: -200px;
+    left: 360px;
+}
+#toolbox{
+    position: relative;
+    top: -10px;
+    left: -160px;
+}
+#toolbox:hover #toolboxshow{
+    display: block;
+}
+#toolboxshow{
+    left: -1%;
+    top: -5%;
+    background-color: white;
+    width: 130px;
+    display: none;
+    border: 1px solid black;
+    position: absolute;
+}
+#toolboxshow li{
+    list-style: none;
+    display: block;
+}
+li a:hover{
+    color: blue;
+}
